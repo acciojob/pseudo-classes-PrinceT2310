@@ -2,11 +2,13 @@
 :root{
 	background-color: rgb(135, 206, 235);
 }
-.para :first-child{
+.para p:first-child{
 	color:white;
 	background-color: black;
 }
-.para :last-child{
+.para p:nth-child(2) {
+}
+.para p:last-child{
 	color: red;
 }
 
@@ -15,14 +17,14 @@
 	width: 50%;
 	padding: 10px;
 }
-.list :first-child , .list :last-child{
+.list li:nth-child(odd){
+	background-color: white;
+}
+.list li:first-child ,
+.list li:last-child{
 	font-size: 22px;
 }
 
-.list :nth-child(odd){
-	background-color: white;
-}
-
-.list :nth-last-child(3){
+.list li:nth-last-child(3){
 	background-color: pink;
 }
