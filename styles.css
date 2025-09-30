@@ -20,7 +20,7 @@ html, body {
 .para p:nth-child(2) {
   /* standard/default text - explicit reset (optional) */
   color: inherit;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .para p:last-child {
@@ -36,7 +36,6 @@ html, body {
   width: 50%;
   padding: 10px;
   box-sizing: border-box;
-  margin: 4px 0;
 }
 
 /* odd items -> white */
